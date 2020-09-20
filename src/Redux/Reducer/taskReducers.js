@@ -1,4 +1,4 @@
-//import {ADD_TASK, DELETE_TASK} from '../actions';
+import { addTask, deleteTask, completeTask } from './actions';
 
 const initState = {
     tasks: [
